@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(240, 240, 240);
+    font-family:"Open Sans", sans-serif;   
+}
+div {
+    width: 600px;
+    margin: 5em auto;
+    padding: 2em;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+a:link, a:visited {
+    color: rgb(115,70,140);
+    text-decoration: none;
+}
+@media screen and (max-width: 768px) {
+    div {
+        margin: 0 auto;
+        width: auto;
+    }
+}
